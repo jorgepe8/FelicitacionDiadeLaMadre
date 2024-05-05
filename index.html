@@ -41,9 +41,12 @@
 
         img {
             max-width: 100%;
+            height: auto; /* Esto asegura que la imagen se ajuste correctamente manteniendo su proporción */
             border-radius: 10px;
             margin-top: 20px;
             animation: slideIn 1s ease;
+            /* Cambia el tamaño de la imagen según tus necesidades */
+            max-height: 500px; /* Esto ajustará la altura máxima de la imagen a 300px */
         }
 
         @keyframes fadeIn {
