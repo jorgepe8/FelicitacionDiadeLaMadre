@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Día de la Madre</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1s ease;
+        }
+
+        h1 {
+            color: #ff4081;
+            font-size: 2em;
+            margin-bottom: 20px;
+            animation: bounceIn 1s ease;
+        }
+
+        p {
+            color: #333;
+            font-size: 1.2em;
+            line-height: 1.5;
+            animation: slideIn 1s ease;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-top: 20px;
+            animation: slideIn 1s ease;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes bounceIn {
+            from {
+                transform: scale(0.5);
+                opacity: 0;
+            }
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>¡Feliz Día de la Madre!</h1>
+        <p>Vale por aventura en busca de zapatillas. Además, ¡Paga solo la mitad!</p>
+        <p>Te quiero mucho :)</p>
+        <img src="BZ4ZKPEW6NCAZH44BZEBMGIDUM.jpg" alt="Imagen para mamá">
+    </div>
+</body>
+</html>
